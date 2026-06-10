@@ -1,0 +1,31 @@
+clow: &clow
+  name: 'Клык'
+  breed: 'Такса'
+  can_mew: False
+
+placement: &placement
+  country: Russia
+  city: Voronezh
+  street: Zagorovkogo
+  house_number: 7к1
+  app: 51
+
+frontend_skill: &frontend_skill
+  name: frontend
+  level:  3
+  descriptions: могло бы быть лучше раз в 20
+
+
+User:
+  is_admin: true
+  name: Danil
+  age: 28
+  position: middle frontend dev
+  skills: 
+    - *frontend_skill
+  placement: *placement
+  pets:
+    - *clow
+
+
+
